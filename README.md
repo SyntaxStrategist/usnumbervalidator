@@ -2,13 +2,13 @@
 
 ## Description
 
-The Telephone Number Validator is a web application that validates US phone numbers in various formats. It checks if the provided phone number adheres to the standard formats and provides appropriate feedback to the user. This project aims to enhance user experience by allowing input via both button clicks and the Enter key.
+The **Telephone Number Validator** is a web application designed to validate US phone numbers in various formats. It checks whether the provided phone number adheres to standard formats and offers appropriate feedback to the user. This project enhances user experience by allowing input through both button clicks and the Enter key.
 
 ## Features
 
 - Input validation for US phone numbers in multiple formats.
 - Alerts the user if no input is provided.
-- Clear button to reset the input and results.
+- A clear button to reset the input and results.
 - Validates the following formats:
   - `1 555-555-5555`
   - `1 (555) 555-5555`
@@ -28,11 +28,14 @@ The Telephone Number Validator is a web application that validates US phone numb
 
 ### Prerequisites
 
-- A modern web browser (Chrome, Firefox, Safari, etc.)
+- A modern web browser (e.g., Chrome, Firefox, Safari).
 
 ### Installation
 
 1. Clone the repository or download the ZIP file.
+   ```bash
+   git clone https://github.com/SyntaxStrategist/Telephone-Number-Validator.git
+   ```
 2. Open the `index.html` file in your preferred web browser.
 
 ### Usage
@@ -44,13 +47,13 @@ The Telephone Number Validator is a web application that validates US phone numb
 
 ## Examples
 
-- **Valid Numbers**
-  - Input: `1 555-555-5555` ➔ Output: `Valid US number: 1 555-555-5555`
-  - Input: `5555555555` ➔ Output: `Valid US number: 5555555555`
+### Valid Numbers
+- Input: `1 555-555-5555` ➔ Output: `Valid US number: 1 555-555-5555`
+- Input: `5555555555` ➔ Output: `Valid US number: 5555555555`
 
-- **Invalid Numbers**
-  - Input: `1 555)555-5555` ➔ Output: `Invalid US number: 1 555)555-5555`
-  - Input: `555-5555` ➔ Output: `Invalid US number: 555-5555`
+### Invalid Numbers
+- Input: `1 555)555-5555` ➔ Output: `Invalid US number: 1 555)555-5555`
+- Input: `555-5555` ➔ Output: `Invalid US number: 555-5555`
 
 ## License
 
@@ -59,4 +62,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Inspired by various web validation tools.
-- Special thanks to online resources and communities for JavaScript development.
+- Special thanks to online resources and communities that support JavaScript development.
